@@ -52,6 +52,10 @@
                 transition: all 0.75s ease;
             }
 
+            .list_section{
+                display: flex;
+  justify-content: center;
+            }
 
                     
         #add_btn{
@@ -69,6 +73,7 @@
         }
 
 
+
         
 
        
@@ -83,7 +88,13 @@
             font-weight: 800;
         }
         
-        
 
+           .delete_btn{
+            display:none}
+        
+        
+            .completed{
+                background-color: rgb(16, 252, 87);
+            }
 
         

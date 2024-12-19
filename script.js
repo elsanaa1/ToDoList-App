@@ -5,7 +5,6 @@ let btn_add=document.getElementById("add_btn");
 let ul_el=document.querySelector("ul");
 
 
-
 // add event listeners 
 btn_add.addEventListener("click",addTaskClick);
 input_el.addEventListener("keypress", addTaskKeypress);
@@ -53,10 +52,18 @@ function addNewTask(){
 	btn_del.addEventListener("click", deleteTask);
     //add class delete_btn (DISPLAY: NONE)
     function deleteTask(){
-        li.classList.add("delete_btn")
+        li_el.classList.add("delete_btn")
     }
 
 
+
+
+	
+	// check completed task by changing its color 
+	li_el.addEventListener("click",greenCompleted);
+	function greenCompleted() {
+		li_el.classList.toggle("completed");
+	}
 
 
 
