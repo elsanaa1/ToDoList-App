@@ -1,5 +1,5 @@
       body {
-                background: #04A1BF;
+                background: #98d4f3;
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
                 }
@@ -8,6 +8,11 @@
                     color: white;
                     text-transform: uppercase;
             
+                }
+
+
+                #second{
+                    color: rgb(6, 156, 51);
                 }
 
 

@@ -16,7 +16,6 @@ function length_input(){
 
 
 function addTaskClick(){
-	alert(length_input())
     	if (length_input()> 0) // if the text input is empty,so don't create list element 
 		  { 
 			addNewTask();}
@@ -60,8 +59,8 @@ function addNewTask(){
 
 	
 	// check completed task by changing its color 
-	li_el.addEventListener("click",greenCompleted);
-	function greenCompleted() {
+	li_el.addEventListener("click",selectCompleted);
+	function selectCompleted() {
 		li_el.classList.toggle("completed");
 	}
 
